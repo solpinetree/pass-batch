@@ -4,6 +4,7 @@
 ### JOB1. 이용권 만료
 * `chunk step`
 * 이용권 만료 대상을 읽어서(ExpirePassesReader) 그 대상들을 만료 상태로 업데이트(ExpirePassesWriter)
+* [#1](https://github.com/solpinetree/pass-batch/issues/1#issue-1825706673)
 
 ### JOB2. 이용권 일괄 지급
 * `tasklet step`
