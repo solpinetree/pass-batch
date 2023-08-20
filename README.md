@@ -9,6 +9,8 @@
 ### JOB2. 이용권 일괄 지급
 * `tasklet step`
 * 어드민에 등록을 하게 되면 정해진 시간에 이용권이 사용자들에게 일괄 지급(AddPassesTasklet)
+* [#2](https://github.com/solpinetree/pass-batch/issues/2)
+
 ### JOB3. 예약 수업 전 알람
 * `multiple thread chunk step`
     -> spring batch에서 제공하는 병렬 처리 방식
