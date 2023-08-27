@@ -1,6 +1,8 @@
 package com.sol.passbatch.repository.booking;
 
 import com.sol.passbatch.repository.BaseEntity;
+import com.sol.passbatch.repository.pass.PassEntity;
+import com.sol.passbatch.repository.user.UserEntity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -29,4 +31,7 @@ public class BookingEntity extends BaseEntity {
     private LocalDateTime endedAt;
     private LocalDateTime cancelledAt;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "userId", insertable = false, updatable = false)
+    private UserEntity userEntity;
 }
