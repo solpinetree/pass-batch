@@ -16,7 +16,8 @@
     -> spring batch에서 제공하는 병렬 처리 방식
    1. Step1. 알람 대상을 가져오는 부분
    2. Step2. 알람을 전송하는 부분
-* [#2](https://github.com/solpinetree/pass-batch/issues/3)
+* [#3](https://github.com/solpinetree/pass-batch/issues/3)
+
 ###  JOB4. 수업 종료 후 이용권 차감
 * `chunk step`
 * UserPassesReader -> AsyncItemProcessor -> AsyncItemWriter
