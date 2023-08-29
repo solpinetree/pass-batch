@@ -21,6 +21,8 @@
 ###  JOB4. 수업 종료 후 이용권 차감
 * `chunk step`
 * UserPassesReader -> AsyncItemProcessor -> AsyncItemWriter
+* [#4](https://github.com/solpinetree/pass-batch/issues/4)
+  
 ### JOB5. 통계 데이터 생성
 1. Step1. 시간당 통계 데이터(`chunk step`)
 	* StatisticReader, StatisticsWriter
