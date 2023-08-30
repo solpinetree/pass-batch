@@ -53,6 +53,9 @@ dependencies {
 
 	// StringUtils
 	implementation 'org.apache.commons:commons-lang3:3.12.0'
+
+	// csv
+	implementation 'com.opencsv:opencsv:5.7.0'
 }
 
 tasks.named('test') {
