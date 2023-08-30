@@ -27,4 +27,7 @@
 1. Step1. 시간당 통계 데이터(`chunk step`)
 	* StatisticReader, StatisticsWriter
 2. Step2. 보고서에 추출(`tasklet step`)
-	* DayStatisticsTasklet, WeakStatisticsTasklet
+	* [2-1]DayStatisticsTasklet, [2-2]WeakStatisticsTasklet
+
+-> 총 3개의 Step
+* [#5](https://github.com/solpinetree/pass-batch/issues/5)
